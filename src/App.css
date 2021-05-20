@@ -1,0 +1,46 @@
+label {
+  display: block;
+}
+
+#savePlaylist {
+  display: block
+}
+
+audio {
+  width: 78px;
+  height: 16px;
+}
+
+.PlaylistDetails {
+  background-color: blue;
+  /* grid-column: 2 / 3; */
+  width: 100%;
+}
+
+.CreatePlaylist {
+  background-color: red;
+  /* grid-column: 2 / 3; */
+  width: 100%;
+}
+
+.AddSongs {
+  background-color: yellow;
+  /* grid-column: 2 / 3; */
+  width: 100%;
+}
+
+.AllPlaylists {
+  background-color: green;
+  grid-column: 1 / 2;
+  grid-row: 2 / 5;
+  height: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.savedPlaylists {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
